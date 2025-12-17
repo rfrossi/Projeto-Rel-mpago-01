@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Desenvolvimento Web - Projetos e Habilidades">
+    <title>Meu Portfólio | Desenvolvedor Web</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Portfólio.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero / About Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h3>Olá, eu sou</h3>
+                    <h1>Desenvolvedor Web</h1>
+                    <p>Transformando ideias em experiências digitais modernas e performáticas. Especializado em HTML, CSS e JavaScript.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn primary-btn">Ver Projetos</a>
+                        <a href="#contact" class="btn secondary-btn">Fale Comigo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile_placeholder.png" alt="Foto de Perfil">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Details -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-content">
+                    <div class="about-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Desenvolvimento</h3>
+                        <p>Habilidade na construção de interfaces responsivas e semânticas com foco em acessibilidade e performance.</p>
+                    </div>
+                    <div class="about-text">
+                        <p>Sou um desenvolvedor apaixonado por tecnologia. Atualmente focado em aprimorar minhas habilidades em Front-end, criando layouts intuitivos e funcionais. Estou sempre estudando novas tecnologias e melhores práticas do mercado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Meus Projetos</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, var(--primary), var(--secondary));">
+                            <!-- Placeholder style since image gen failed for this -->
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Nome do Projeto 01</h3>
+                            <p>Descrição breve do projeto. Tecnologias utilizadas: HTML, CSS, JS.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, var(--secondary), var(--accent));">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Nome do Projeto 02</h3>
+                            <p>Descrição breve do projeto. Tecnologias utilizadas: HTML, CSS.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, var(--accent), var(--text-light));">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Nome do Projeto 03</h3>
+                            <p>Descrição breve do projeto. Tecnologias utilizadas: HTML, CSS.</p>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h2>Vamos conversar?</h2>
+                <p>Estou disponível para novas oportunidades e projetos.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:email@exemplo.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple Script for Mobile Menu -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
