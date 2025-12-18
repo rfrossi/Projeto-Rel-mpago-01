@@ -31,3 +31,4 @@ Este é um portfólio pessoal desenvolvido como parte do curso Alpha EdTech, ond
 03. Novos Ajustes: inclusão de mais um projeto, logo Alpha EdTech, deleção da pasta assets/ e seu conteúdo  
 04. Logo Linkado: link do logo Alpha EdTech
 05. Novo Readme: atualizações do readme.md
+06. Screenshots em Cards: inserção de imagens dos projetos para ilustrar os cards
