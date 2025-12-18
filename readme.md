@@ -41,3 +41,4 @@ Prazo: Os projetos serão apresentados nos dias 18/12/2025 e 19/12/2025.
 05. Novo Readme: atualizações do readme.md
 06. Screenshots em Cards: inserção de imagens dos projetos para ilustrar os cards
 07. Correção Links Quebrados: correção nos links das imagens que não estavam carregando no GitHub Pages. Ajustes e atualizações no readme.
+08. Adição no Projeto 3: Faltava mencionar o uso de APIs nessa colaboração.
