@@ -13,10 +13,8 @@ HTML:
 CSS:
 scripts:
 
-ESTRUTURAÇÃO DO PROJETO / CAMINHO PERCORRIDO
-Template: gerado à partir de prompts de IA, utilizando Antigravity
-Ajustes:
-
 COMMITS
 01. Commit Inicial: publicação dos arquivos HTML, CSS e imagens
-02. 
+02. Ajustes Iniciais: adição de informações, links e imagens
+03. Novos Ajustes: inclusão de mais um projeto, logo Alpha EdTech, deleção da pasta assets/ e seu conteúdo
+04. 
